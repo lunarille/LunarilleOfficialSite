@@ -34,11 +34,8 @@ body, input, button {
     font-size: 40px;
     line-height: 0;
 }
-.header-nav {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
+
+
 .header-logo {
     text-align: center;
 }
@@ -57,9 +54,14 @@ p {
 
 .song-video {
     padding-bottom: 50px;
+    max-width: 100%;
+    height: auto;
 }
+
 #album-declaration {
     padding-bottom: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
 .social-media-icon {
@@ -67,6 +69,8 @@ p {
 }
 #album-teaser {
     padding-bottom: 250px;
+    max-width: 100%;
+    height: auto;
 }
 .nav-link {
     font-size: 30px;
@@ -148,7 +152,7 @@ a, a:visited {
 }
 
 .nav-bar ul {
-    margin: 60px 0 0 30px;
+    margin: 120px 0 0 30px;
     padding: 0;
     list-style: none;
 }
